@@ -1,0 +1,83 @@
+
+html,body{height: 100vh;}
+#root{height: 100vh;}
+#headerPage{
+    width: 30%;
+    height: 100vh;
+    position: relative;
+    background: #DCF2FF;
+    header{
+        width: 100%;
+        height: 100vh;
+        padding: 7rem 3.75rem;
+        h1{
+            font-family: 'DM Serif Text', serif;
+            font-size: 2rem;
+            color: #333;
+            line-height: 1;
+            p{
+                text-align: center;
+                &:nth-child(1){
+                    font-size: 1.6rem;
+                    font-family: 'Work Sans', sans-serif;
+                }
+                &:nth-child(2){
+                    /* font-size: 4rem; */
+                    font-size: 6rem;
+                    color: #111;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+        }
+    }
+    #nav{
+        font-size: 36px;
+        font-family: 'Nunito Sans', sans-serif;
+        position: absolute;
+        top: 500px;
+        left: 3.75rem;
+        ul{
+            li{
+                width: 144%;
+                border-bottom: 1.4px solid #222;
+                position: relative;
+                a{
+                    color: #111;
+                    padding: 10px 134px 10px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                &:nth-child(1):hover::after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    width: 32px;
+                    height: 32px;
+                    background: url(../../../public/img/folderB.png) no-repeat 100%;
+                    background-size: cover;
+                    cursor: pointer;
+                }
+                &:nth-child(2):hover::after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    width: 32px;
+                    height: 32px;
+                    background: url(../../../public/img/user.png) no-repeat 100%;
+                    background-size: cover;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+/*     main{
+        flex-basis: 68%;
+        padding: 3.75rem;
+        background: #FEFEFE;
+    } */
+}

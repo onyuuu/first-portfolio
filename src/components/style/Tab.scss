@@ -1,0 +1,32 @@
+.ant-tabs-ink-bar{
+    background: none;
+}
+.ant-tabs-tab-btn{
+    color: #9c9c9c;  //탭 비활성화 글씨
+    font-size: 0.8rem;
+}
+:where(.css-dev-only-do-not-override-ph9edi).ant-tabs-top >.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-bottom >.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-top >div>.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-bottom >div>.ant-tabs-nav::before {
+    display: none;
+}
+:where(.css-dev-only-do-not-override-ph9edi).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    text-shadow: none;
+    color: #111 !important;   // 탭 활성화 글씨
+    font-weight: 500;
+}
+/* .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #111 !important;   // 탭 글씨
+    font-weight: 500;
+} */
+.ant-tabs{
+    padding-top: 6.6rem;
+    width: 70%;
+}
+.ant-tabs-ink-bar {
+    background: transparent !important;
+}
+:where(.css-dev-only-do-not-override-ph9edi).ant-tabs{
+    color: red; //컨텐츠 내용
+}
+:where(.css-dev-only-do-not-override-ph9edi).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
+    margin: 0 0 0 54px;  //탭 간격
+}
