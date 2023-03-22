@@ -184,12 +184,18 @@
             font-weight: 300;
             margin-bottom: 10px;
         }
-        ul{
-            li{
-                font-size: 1.1rem;
-                line-height: 1.7;
+        .ulBox{
+            display: flex;
+            justify-content: space-between;
+            background: yellowgreen;
+            ul{
+                li{
+                    font-size: 1.2rem;
+                    line-height: 1.7;
+                }
             }
         }
+        
         &::before{
             content: '';
             position: absolute;

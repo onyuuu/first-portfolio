@@ -20,7 +20,7 @@ export default function Kurly() {
                             <div className='toggle'>
                                 <h4 onClick={() => setHide1(!hide1)}>
                                     <div className='toggleImg'>
-                                        <img src="img/toggle1.png" alt="toggle" />
+                                        <img src={`${process.env.PUBLIC_URL}/img/toggle1.png`} alt="toggle" />
                                     </div>
                                     Subject
                                 </h4>
@@ -29,7 +29,7 @@ export default function Kurly() {
                             <div className='toggle'>
                                 <h4 onClick={() => setHide2(!hide2)}>
                                     <div className='toggleImg'>
-                                        <img src="img/toggle1.png" alt="toggle" />
+                                        <img src={`${process.env.PUBLIC_URL}/img/toggle1.png`} alt="toggle" />
                                     </div>
                                     Skills
                                 </h4>
@@ -38,7 +38,7 @@ export default function Kurly() {
                             <div className='toggle'>
                                 <h4 onClick={() => setHide3(!hide3)}>
                                     <div className='toggleImg'>
-                                        <img src="img/toggle1.png" alt="toggle" />
+                                        <img src={`${process.env.PUBLIC_URL}/img/toggle1.png`} alt="toggle" />
                                     </div>
                                     Description
                                 </h4>
@@ -47,7 +47,7 @@ export default function Kurly() {
                             <div className='toggle'>
                                 <h4 onClick={() => setHide4(!hide4)}>
                                     <div className='toggleImg'>
-                                        <img src="img/toggle1.png" alt="toggle" />
+                                        <img src={`${process.env.PUBLIC_URL}/img/toggle1.png`} alt="toggle" />
                                     </div>
                                     Open
                                 </h4>
@@ -58,7 +58,7 @@ export default function Kurly() {
                 </div>
                 <div className='right'>
                     <div className='p_imgBox'>
-                        <img onClick={()=>{window.open(url)}} src="./img/kurlyFull.png" alt="컬리" />
+                        <img onClick={()=>{window.open(url)}} src={`${process.env.PUBLIC_URL}/img/kurlyFull.png`} alt="컬리" />
                     </div>
                 </div>
             </div>

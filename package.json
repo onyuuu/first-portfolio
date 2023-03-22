@@ -26,6 +26,7 @@
     "react-scroll": "^1.8.9",
     "resolve-url-loader": "^5.0.0",
     "styled-components": "^5.3.8",
+    "styled-reset": "^4.4.5",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

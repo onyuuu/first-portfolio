@@ -37,7 +37,7 @@ export default function Job() {
                 </div>
                 <div className='right'>
                     <div className='p_imgBox'>
-                        <img onClick={()=>{window.open(url)}} src="./img/job.png" alt="잡아바" />
+                        <img onClick={()=>{window.open(url)}} src={`${process.env.PUBLIC_URL}/img/job.png`} alt="잡아바" />
                     </div>
                 </div>
             </div>

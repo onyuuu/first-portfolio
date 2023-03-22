@@ -8,7 +8,7 @@
 :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-top >.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-bottom >.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-top >div>.ant-tabs-nav::before, :where(.css-dev-only-do-not-override-ph9edi).ant-tabs-bottom >div>.ant-tabs-nav::before {
     display: none;
 }
-:where(.css-dev-only-do-not-override-ph9edi).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     text-shadow: none;
     color: #111 !important;   // 탭 활성화 글씨
     font-weight: 500;
@@ -29,4 +29,8 @@
 }
 :where(.css-dev-only-do-not-override-ph9edi).ant-tabs .ant-tabs-tab+.ant-tabs-tab {
     margin: 0 0 0 54px;  //탭 간격
+}
+
+.ant-tabs-top >.ant-tabs-nav::before{
+    border-bottom: none;
 }

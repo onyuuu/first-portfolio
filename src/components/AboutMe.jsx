@@ -11,7 +11,7 @@ export default function Aboutme() {
                 <div className="am_left">
                     <h2>About Me</h2>
                     <div className='selfie'>
-                        <img src="./img/ch.png" alt="임시사진" />
+                        <img src={`${process.env.PUBLIC_URL}/img/ch.png`} alt="임시사진" />
                     </div>
                     <div className='leftInfo'>
                         <ul>
@@ -40,16 +40,30 @@ export default function Aboutme() {
                         </ul>
                     </div>
                     <div className="skills">
-                    <h3>Skills</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS / SCSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>PHP</li>
-                            <li>Postman</li>
-                        </ul>
+                        <h3>Skills</h3>
+                        <div className='ulBox'>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS / SCSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                
+                            </ul>
+                            <ul>
+                                <li>Postman</li>
+                                <li>Node.js</li>
+                                <li>PHP</li>
+                                <li>Git</li>
+                            </ul>
+                            <ul>
+                                <li>Figma</li>
+                                <li>Zeplin</li>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
+                                <li>Indesign</li>
+                            </ul>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

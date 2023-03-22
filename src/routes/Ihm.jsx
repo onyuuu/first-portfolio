@@ -37,7 +37,7 @@ export default function Kurly() {
                 </div>
                 <div className='right'>
                     <div className='p_imgBox'>
-                        <img onClick={()=>{window.open(url)}} src="./img/ihmFull.png" alt="ihm" />
+                        <img onClick={()=>{window.open(url)}} src={`${process.env.PUBLIC_URL}/img/ihmFull.png`} alt="ihm" />
                     </div>
                 </div>
             </div>

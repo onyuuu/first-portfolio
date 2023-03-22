@@ -10519,6 +10519,7 @@ __metadata:
     react-scroll: ^1.8.9
     resolve-url-loader: ^5.0.0
     styled-components: ^5.3.8
+    styled-reset: ^4.4.5
     web-vitals: ^2.1.0
   languageName: unknown
   linkType: soft
@@ -13565,6 +13566,15 @@ __metadata:
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
   checksum: 60148083f4057cd0dd4ad555e82800ec4ec4b8822fd81645f084e9beebf91420f4c9c75875b44933755d32ec97c46be6b79ca0c23578e5a731e3399e6ea0d901
+  languageName: node
+  linkType: hard
+
+"styled-reset@npm:^4.4.5":
+  version: 4.4.5
+  resolution: "styled-reset@npm:4.4.5"
+  peerDependencies:
+    styled-components: ">=4.0.0 || >=5.0.0"
+  checksum: 3cd86e5d55edc26f254951dc0efe5ec2c8bed8f9056cda94e8808365a3809366890f31165bacc2663a67c3aee1cce35399c5c181142457035c91262341f943cf
   languageName: node
   linkType: hard
 
