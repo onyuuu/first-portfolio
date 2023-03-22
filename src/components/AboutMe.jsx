@@ -35,8 +35,8 @@ export default function Aboutme() {
                     <div className="education">
                         <h3>Education</h3>
                         <ul>
-                            <li><span>2022.10 - 2023.03</span> 더휴먼컴퓨터아트아카데미 프론트엔드 과정 수료</li>
-                            <li>2020 수원대학교 회계학과 졸업</li>
+                            <li><span>2022.10 - 2023.03</span>&nbsp;&nbsp;더휴먼컴퓨터아트아카데미 프론트엔드 과정 수료</li>
+                            <li><span>2020.08</span>&nbsp;&nbsp;수원대학교 회계학과 졸업</li>
                         </ul>
                     </div>
                     <div className="skills">

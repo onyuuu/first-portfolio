@@ -71,11 +71,11 @@
     background-color: rgba(255, 238, 238, 0.659);
     width: 70%;
     height: 100vh;
-    padding: 7rem 5rem;
+    padding: 7rem 6rem;
     position: relative;
     .certificate{
         position: absolute;
-        top: 0;
+        top: 20px;
         left: 0;
         background: #fff;
         border: 1px solid #111;
@@ -134,16 +134,16 @@
         background: #fff;
         border: 1px solid #111;
         border-radius: 20px;
-        width: 700px;
+        width: 740px;
         height: 252px;
         position: relative;
-        padding: 3rem 3rem 2rem;
+        padding: 3rem 4rem 2rem;
         h3{
             text-align: center;
             font-size: 1.6rem;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         ul{
             li{
@@ -173,21 +173,23 @@
     .skills{
         border: 1px solid #111;
         border-radius: 20px;
-        width: 540px;
+        width: 600px;
         height: 330px;
-        position: relative;
-        padding: 3rem 3rem 2rem;
+        position: absolute;
+        top: 600px;
+        left: 300px;
+        background: #fff;
+        padding: 3rem 4rem 2rem;
         h3{
             text-align: center;
             font-size: 1.6rem;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .ulBox{
             display: flex;
             justify-content: space-between;
-            background: yellowgreen;
             ul{
                 li{
                     font-size: 1.2rem;
