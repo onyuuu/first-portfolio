@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://onyuuu.github.io/first-portfolio/static/css/main.ddc99e77.css",
-    "main.js": "https://onyuuu.github.io/first-portfolio/static/js/main.7d9e1b2f.js",
+    "main.css": "https://onyuuu.github.io/first-portfolio/static/css/main.b1f49278.css",
+    "main.js": "https://onyuuu.github.io/first-portfolio/static/js/main.3650271f.js",
     "static/media/ihm.png": "https://onyuuu.github.io/first-portfolio/static/media/ihm.4157cb7019d853eb8e5a.png",
     "static/media/kurlyFull.png": "https://onyuuu.github.io/first-portfolio/static/media/kurlyFull.40a3b76570c684d85de7.png",
     "static/media/job.png": "https://onyuuu.github.io/first-portfolio/static/media/job.d018b3f75f38c884ccff.png",
@@ -9,11 +9,11 @@
     "static/media/ex2.jpg": "https://onyuuu.github.io/first-portfolio/static/media/ex2.dfa12088e8f9a342de30.jpg",
     "static/media/ex4.jpg": "https://onyuuu.github.io/first-portfolio/static/media/ex4.8d57cd3115808c32ab88.jpg",
     "index.html": "https://onyuuu.github.io/first-portfolio/index.html",
-    "main.ddc99e77.css.map": "https://onyuuu.github.io/first-portfolio/static/css/main.ddc99e77.css.map",
-    "main.7d9e1b2f.js.map": "https://onyuuu.github.io/first-portfolio/static/js/main.7d9e1b2f.js.map"
+    "main.b1f49278.css.map": "https://onyuuu.github.io/first-portfolio/static/css/main.b1f49278.css.map",
+    "main.3650271f.js.map": "https://onyuuu.github.io/first-portfolio/static/js/main.3650271f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc99e77.css",
-    "static/js/main.7d9e1b2f.js"
+    "static/css/main.b1f49278.css",
+    "static/js/main.3650271f.js"
   ]
 }
