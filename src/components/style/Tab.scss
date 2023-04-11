@@ -32,5 +32,12 @@
 }
 
 .ant-tabs-top >.ant-tabs-nav::before{
-    border-bottom: none;
+    border-bottom: none;  //탭 아래 선
+}
+
+.ant-tabs-content{
+    transition: 0.5s;
+}
+.rc-tabs-0-panel-tab1{
+    transition: 1s;
 }

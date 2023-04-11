@@ -9,11 +9,13 @@ export default function Main() {
                 <h1>
                     <p>Frontend Developer</p>
                     <p>Onyu</p>
+                    
+                    <p>demo</p>
                 </h1>
             </header>
             <div id='nav'>
                 <ul>
-                    <li><Link to='/'>Project</Link></li>
+                    <li className='pj_hover'><Link to='/'>Project</Link></li>
                     <li><Link to='/AboutMe'>About Me</Link></li>
                 </ul>
             </div>

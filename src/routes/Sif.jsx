@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import './style/Kurly.scss';
+import './style/Sif.scss';
 
-export default function Kurly() {
+export default function Sif() {
     const [hide1, setHide1] = useState(false);
     const [hide2, setHide2] = useState(false);
     const [hide3, setHide3] = useState(false);
     const [hide4, setHide4] = useState(false);
-    const url = 'http://onyu.dothome.co.kr/kurlyweb1/';
+    const url = 'http://onyu.dothome.co.kr/';
 
     return (
         <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration: 0.8}}>
-            <div id='kurly'>
+            <div id='sif'>
                 <div className='left'>
-                    <h2>Kurly</h2>
+                    <h2>SIF</h2>
                     <div id='projectInfo'>
                         <div className='infoBox'>
                             <h3>Get Info</h3>
@@ -24,7 +24,7 @@ export default function Kurly() {
                                     </div>
                                     Subject
                                 </h4>
-                                <span className={(hide1 ? 'hidden' : '')}>컬리 회원가입 페이지</span>
+                                <span className={(hide1 ? 'hidden' : '')}>컬리 메인, 회원가입 페이지</span>
                             </div>
                             <div className='toggle'>
                                 <h4 onClick={() => setHide2(!hide2)}>
@@ -51,7 +51,7 @@ export default function Kurly() {
                                     </div>
                                     Open
                                 </h4>
-                                <span className={(hide4 ? 'hidden' : '')}>http://onyu.dothome.co.kr/kurlyweb1/</span>
+                                <span className={(hide4 ? 'hidden' : '')}>http://onyu.dothome.co.kr/</span>
                             </div>
                         </div>
                     </div>

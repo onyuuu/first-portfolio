@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './style/AboutMe.scss';
+import { Link } from 'react-router-dom';
 
 
 export default function Aboutme() {
@@ -18,6 +19,7 @@ export default function Aboutme() {
                             <li>010-2240-9954</li>
                             <li>6000951@naver.com</li>
                             <li onClick={()=>{window.open(gitUrl)}}>github.com/onyuuu</li>
+                            <li><Link to='/'>Project</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -47,13 +49,12 @@ export default function Aboutme() {
                                 <li>CSS / SCSS</li>
                                 <li>JavaScript</li>
                                 <li>React</li>
-                                
                             </ul>
                             <ul>
                                 <li>Postman</li>
                                 <li>Node.js</li>
                                 <li>PHP</li>
-                                <li>Git</li>
+                                <li>Github</li>
                             </ul>
                             <ul>
                                 <li>Figma</li>
@@ -63,7 +64,6 @@ export default function Aboutme() {
                                 <li>Indesign</li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
             </div>

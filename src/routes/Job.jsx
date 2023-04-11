@@ -6,7 +6,7 @@ export default function Job() {
     const [hide1, setHide1] = useState(false);
     const [hide2, setHide2] = useState(false);
     const [hide3, setHide3] = useState(false);
-    const url = 'http://onyu.dothome.co.kr/project01/'
+    const url = 'http://onyu.dothome.co.kr/project/project01/'
 
     return (
         <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration: 0.8}}>
@@ -30,7 +30,7 @@ export default function Job() {
                             </div>
                             <div className='toggle'>
                                 <h4 onClick={() => setHide3(!hide3)}>Open</h4>
-                                <span className={(hide3 ? 'hidden' : '')}>http://onyu.dothome.co.kr/project1/</span>
+                                <span className={(hide3 ? 'hidden' : '')}>http://onyu.dothome.co.kr/project/project01/</span>
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import './style/Project2.scss';
 export default function Project2() {
     return (
         <div className='project_main2'>
-            <Link to='/Job'></Link>
+            <Link to='/Sif'></Link>
         </div>
     );
 }
